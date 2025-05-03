@@ -9,9 +9,9 @@
   </head>
   <body>
     <div
-      class="voice-chat-default w-[400px] h-[794px] rounded-[24px] p-[20px] absolute right-[46px] bottom-[46px] bg-white"
+      class="voice-chat-default absolute right-[46px] top-[46px] bottom-[46px] w-[400px] bg-white rounded-[24px] p-[20px] flex flex-col overflow-hidden"
     >
-      <div class="header flex items-center justify-between">
+      <div class="header flex items-center justify-between flex-shrink-0">
         <div class="flex items-center gap-[20px]">
           <div
             class="gradient-wrap w-[40px] h-[40px] bg-white rounded-[50%] p-[1.72px]"
@@ -42,7 +42,7 @@
       </div>
 
       <div
-        class="chat-body w-[100%] h-[646px] flex items-center justify-center pt-[20px] pb-[20px]"
+        class="chat-body flex-1 overflow-y-auto flex items-center justify-center pt-[20px] pb-[20px]"
       >
         <div
           class="widget-speaking w-[120px] h-[120px] rounded-[50%] p-[1px] flex items-center justify-center"
@@ -101,6 +101,9 @@
           />
         </button>
       </div>
+      <div
+        class="voice-chat-footer flex items-center justify-between flex-shrink-0"
+      ></div>
     </div>
   </body>
 </html>
