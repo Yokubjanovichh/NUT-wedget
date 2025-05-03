@@ -8,8 +8,34 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="w-[400px] h-[794px] rounded-[24px] p-[20px] fixed right-[46px] bottom-[46px] bg-white">
-
+    <div
+      class="voice-chat-default w-[400px] h-[794px] rounded-[24px] p-[20px] absolute right-[46px] bottom-[46px] bg-white"
+    >
+      <div class="header flex items-center justify-between">
+        <div class="flex items-center gap-[20px]">
+          <div class="gradient-wrap w-[40px] h-[40px] bg-white rounded-[50%]">
+            <div class="content flex items-center justify-center">
+              <img
+                src="./assets/images/widget-icon.png"
+                alt="widget-icon"
+                class="w-[21px] h-[20px]"
+              />
+            </div>
+          </div>
+          <p class="voice-chat_header-text text-[16px] leading-[150%]">
+            Sales agent
+          </p>
+        </div>
+        <button
+          class="w-[40px] h-[40px] rounded-[50%] flex items-center justify-center border-2 border-[#D8D8D8]"
+        >
+          <img
+            src="./assets/images/close-icon.svg"
+            alt="close-icon"
+            class="w-[8.33px] h-[8.33px]"
+          />
+        </button>
+      </div>
     </div>
   </body>
 </html>
