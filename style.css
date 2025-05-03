@@ -1,0 +1,69 @@
+/* 1) Regular */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFPRODISPLAYREGULAR.OTF");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2) Medium */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3) Bold */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFPRODISPLAYBOLD.OTF");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgray;
+}
+
+.gradient-wrap {
+  background: linear-gradient(90deg, #7c5ff0 0%, #e533cd 93.33%);
+  padding: 2.5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-wrap .content {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.widget-title {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+}
+
+.voice-chat_button,
+.text-chat_wrapper {
+  background: linear-gradient(
+      315deg,
+      rgba(255, 255, 255, 0.24) -0.13%,
+      rgba(255, 255, 255, 0.0576) 99.87%
+    ),
+    linear-gradient(90deg, #7c5ff0 0%, #e533cd 93.33%);
+  font-family: "SF Pro Display";
+  font-weight: 700;
+}
