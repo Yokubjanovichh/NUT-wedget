@@ -37,7 +37,6 @@ body {
 
 .gradient-wrap {
   background: linear-gradient(90deg, #7c5ff0 0%, #e533cd 93.33%);
-  padding: 2.5px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -57,7 +56,8 @@ body {
 }
 
 .voice-chat_button,
-.text-chat_wrapper {
+.text-chat_wrapper,
+.widget-speaking {
   background: linear-gradient(
       315deg,
       rgba(255, 255, 255, 0.24) -0.13%,
@@ -75,4 +75,12 @@ body {
 .voice-chat_header-text {
   font-family: "SF Pro Display";
   font-weight: 700;
+}
+
+.widget-content span {
+  border-radius: 20px;
+  background: linear-gradient(180deg, #7c5ff0 -38.3%, #e533cd 232.3%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
