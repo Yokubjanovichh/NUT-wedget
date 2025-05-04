@@ -116,3 +116,7 @@ body {
     ),
     linear-gradient(90deg, #7c5ff0 0%, #e533cd 93.33%);
 }
+
+.checked-button {
+  background: #6fcf97 !important;
+}
