@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Voice Chat Default</title>
+    <title>Ai speaking & Displaying Results</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div
-      class="voice-chat-default absolute right-[46px] bottom-[46px] w-[400px] h-[min(calc(100vh-92px),794px)] bg-white rounded-[24px] p-[20px] flex flex-col overflow-hidden [@media(max-width:440px)]:h-[min(calc(100vh-20px),794px)] [@media(max-width:440px)]:right-[10px] [@media(max-width:440px)]:bottom-[10px] [@media(max-width:440px)]:w-[calc(100%-20px)]"
+      class="voice-chat-default voice-chat absolute right-[46px] bottom-[46px] w-[400px] h-[min(calc(100vh-92px),794px)] bg-white rounded-[24px] p-[20px] flex flex-col overflow-hidden [@media(max-width:440px)]:h-[min(calc(100vh-20px),794px)] [@media(max-width:440px)]:right-[10px] [@media(max-width:440px)]:bottom-[10px] [@media(max-width:440px)]:w-[calc(100%-20px)]"
     >
       <div class="header flex items-center justify-between flex-shrink-0">
         <div class="flex items-center gap-[20px]">
@@ -42,15 +42,12 @@
         </a>
       </div>
 
-      <div
-        class="chat-body flex-1 overflow-y-auto flex items-center justify-center pt-[20px] pb-[20px]"
-        onclick="window.location.href='userSpaeaking.html';"
-      >
+      <div class="chat-body flex-1 overflow-y-auto pt-[20px] pb-[20px]">
         <div
-          class="widget-speaking w-[120px] h-[120px] rounded-[50%] p-[1px] flex items-center justify-center"
+          class="widget-speaking w-[100%] rounded-[1023px] p-[1px] flex items-center justify-center"
         >
           <div
-            class="widget-content [cursor:pointer] w-[100%] h-[100%] rounded-[50%] bg-white flex items-center justify-center gap-[5px]"
+            class="widget-content [cursor:pointer] w-[100%] h-[100%] rounded-[1023px] bg-white flex items-center justify-center gap-[5px] pt-[12.8px] pb-[12.8px]"
           >
             <span class="w-[2.8px] h-[4.7px]"></span>
             <span class="w-[2.8px] h-[23.3px]"></span>
@@ -59,6 +56,57 @@
             <span class="w-[2.8px] h-[14px]"></span>
             <span class="w-[2.8px] h-[23.3px]"></span>
             <span class="w-[2.8px] h-[4.7px]"></span>
+          </div>
+        </div>
+        <div class="widget-displaying-results">
+          <p
+            class="widget-displaying-results__title text-[22px] leading-[150%] tracking-[0%] text-center mt-[20px] mb-[20px]"
+          >
+            Dinning chair recommendations
+          </p>
+          <div class="results-cart">
+            <img
+              src="./assets/images/cart-image-1.png"
+              alt="cart image 1"
+              class="w-[100%]"
+            />
+            <div class="results-cart-text mt-[7px]">
+              <p class="mb-[7px]">Dinning Chair Black</p>
+              <div class="flex items-center gap-[6px]">
+                <p class="text-[#797AFF]">$809.00</p>
+                <p class="text-[#9E9E9E]"><del>$1080.00</del></p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-[16px] mt-[16px]">
+            <div class="results-cart">
+              <img
+                src="./assets/images/cart-image-2.png"
+                alt="cart image 1"
+                class="w-[100%]"
+              />
+              <div class="results-cart-text mt-[7px]">
+                <p class="mb-[7px]">Dinning Chair Black</p>
+                <div class="flex items-center gap-[6px]">
+                  <p class="text-[#797AFF]">$809.00</p>
+                  <p class="text-[#9E9E9E]"><del>$1080.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="results-cart">
+              <img
+                src="./assets/images/cart-image-3.png"
+                alt="cart image 1"
+                class="w-[100%]"
+              />
+              <div class="results-cart-text mt-[7px]">
+                <p class="mb-[7px]">Dinning Chair Black</p>
+                <div class="flex items-center gap-[6px]">
+                  <p class="text-[#797AFF]">$809.00</p>
+                  <p class="text-[#9E9E9E]"><del>$1080.00</del></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -95,7 +143,6 @@
         </button>
         <button
           class="w-[68px] h-[68px] flex items-center justify-center rounded-[50%] border-2 border-[#D8D8D8]"
-          onclick="window.location.href='userSpaeaking.html';"
         >
           <img
             src="./assets/images/microphone.svg"

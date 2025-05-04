@@ -84,3 +84,26 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.widget-displaying-results__title {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+}
+
+.results-cart-text p {
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.chat-body {
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.chat-body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
