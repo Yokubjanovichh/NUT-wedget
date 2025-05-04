@@ -107,3 +107,12 @@ body {
   width: 0;
   height: 0;
 }
+
+.results-cart-buttons button {
+  background: linear-gradient(
+      315deg,
+      rgba(255, 255, 255, 0.24) -0.13%,
+      rgba(255, 255, 255, 0.0576) 99.87%
+    ),
+    linear-gradient(90deg, #7c5ff0 0%, #e533cd 93.33%);
+}
