@@ -120,3 +120,9 @@ body {
 .checked-button {
   background: #6fcf97 !important;
 }
+
+.text-chat-introduction,
+.text-chat-input {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+}
