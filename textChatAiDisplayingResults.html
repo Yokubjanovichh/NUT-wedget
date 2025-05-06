@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-chat Ai Displaying Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="w-[400px] absolute right-[46px] bottom-[46px] h-[min(calc(100vh-92px),794px)] bg-white [@media(max-width:440px)]:bg-transparent rounded-[24px] [@media(max-width:440px)]:rounded-[0px] flex flex-col gap-[20px] overflow-hidden [@media(max-width:440px)]:right-[0] [@media(max-width:440px)]:bottom-[0] [@media(max-width:440px)]:w-[100%] [@media(max-width:440px)]:h-[calc(100dvh)] [@media(max-width:440px)]:pt-[20px]"
+    >
+      <div
+        class="w-[400px] h-[calc(100dvh-92px)] bg-white rounded-[24px] p-[20px] flex flex-col overflow-hidden [@media(max-width:440px)]:w-[calc(100%-40px)] [@media(max-width:440px)]:mx-auto [@media(max-width:440px)]:h-[calc(100dvh-20px)]"
+      >
+        <div class="header flex items-center justify-between flex-shrink-0">
+          <div class="flex items-center gap-[20px]">
+            <div
+              class="gradient-wrap w-[40px] h-[40px] bg-white rounded-[50%] p-[1.72px]"
+            >
+              <div
+                class="content flex items-center justify-center cursor-pointer"
+              >
+                <img
+                  src="./assets/images/widget-icon.webp"
+                  alt="widget-icon"
+                  class="w-[21px] h-[20px]"
+                />
+              </div>
+            </div>
+            <p class="voice-chat_header-text text-[16px] leading-[150%]">
+              Sales agent
+            </p>
+          </div>
+          <a
+            href="./index.html"
+            class="w-[40px] h-[40px] rounded-[50%] flex items-center justify-center border-2 border-[#D8D8D8]"
+          >
+            <img
+              src="./assets/images/close-icon.svg"
+              alt="close-icon"
+              class="w-[8.33px] h-[8.33px]"
+            />
+          </a>
+        </div>
+
+        <div
+          class="chat-body flex-1 overflow-y-auto flex flex-col items-start pt-[20px] pb-[20px]"
+        >
+          <div class="user-text w-full flex items-start justify-end">
+            <p
+              class="inline-block pt-3 pr-3 pb-3 pl-[23px] rounded-tl-[50px] rounded-tr-[20px] rounded-bl-[50px] bg-[#191919] text-white"
+            >
+              I’d like to see the chairs you have on sale
+            </p>
+          </div>
+          <div class="widget-displaying-results">
+            <p
+              class="widget-displaying-results__title text-[22px] leading-[150%] tracking-[0%] text-center mt-[20px] mb-[20px]"
+            >
+              Dinning chair recommendations
+            </p>
+            <div class="results-cart">
+              <img
+                src="./assets/images/cart-image-1.webp"
+                alt="cart image 1"
+                class="w-[100%]"
+              />
+              <div class="results-cart-text mt-[7px]">
+                <p class="mb-[7px]">Dinning Chair Black</p>
+                <div class="flex items-center gap-[6px]">
+                  <p class="text-[#797AFF]">$809.00</p>
+                  <p class="text-[#9E9E9E]"><del>$1080.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-[16px] mt-[16px]">
+              <div class="results-cart">
+                <img
+                  src="./assets/images/cart-image-2.webp"
+                  alt="cart image 1"
+                  class="w-[100%]"
+                />
+                <div class="results-cart-text mt-[7px]">
+                  <p class="mb-[7px]">Dinning Chair Black</p>
+                  <div class="flex items-center gap-[6px]">
+                    <p class="text-[#797AFF]">$809.00</p>
+                    <p class="text-[#9E9E9E]"><del>$1080.00</del></p>
+                  </div>
+                </div>
+              </div>
+              <div class="results-cart">
+                <img
+                  src="./assets/images/cart-image-3.webp"
+                  alt="cart image 1"
+                  class="w-[100%]"
+                />
+                <div class="results-cart-text mt-[7px]">
+                  <p class="mb-[7px]">Dinning Chair Black</p>
+                  <div class="flex items-center gap-[6px]">
+                    <p class="text-[#797AFF]">$809.00</p>
+                    <p class="text-[#9E9E9E]"><del>$1080.00</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-chat-footer w-[100%] flex items-center justify-center gap-[10px] bg-white pt-[20px] pb-[20px]"
+      >
+        <div
+          class="text-caht-input w-[calc(100%-40px)] h-[68px] flex items-center gap-[16px] rounded-[1998px] border-2 border-[#D8D8D8] pl-[20px] pr-[20px]"
+        >
+          <input
+            type="text"
+            placeholder="Message"
+            class="flex-1 min-w-0 h-full bg-transparent focus:outline-none text-[18px] leading-[24.63px] tracking-[0%] text-black opacity-60"
+          />
+          <button class="flex justify-center items-center">
+            <img
+              src="./assets/images/upload-circle-01.svg"
+              alt="text-send-button"
+              class="w-[30px] h-[30px]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
