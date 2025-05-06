@@ -57,7 +57,7 @@
         </div>
       </div>
       <div
-        class="text-chat-footer w-[100%] flex items-center justify-center gap-[10px] bg-white pt-[20px] pb-[20px]"
+        class="text-chat-footer w-full flex items-center justify-center gap-[10px] bg-white p-[10px]"
       >
         <div
           class="text-caht-input w-[282px] h-[68px] flex items-center gap-[16px] rounded-[1998px] border-2 border-[#D8D8D8] pl-[20px] pr-[20px]"
@@ -65,24 +65,32 @@
           <input
             type="text"
             placeholder="Message"
-            class="text-chat-input w-[154px] h-[100%] bg-transparent focus:outline-none text-[18px] [leading-trim:'cap height'] leading-[24.63px] tracking-[0%] text-black opacity-60"
+            class="flex-1 min-w-0 h-full bg-transparent focus:outline-none text-[18px] [leading-trim:'cap height'] leading-[24.63px] tracking-[0%] text-black opacity-60"
           />
           <div class="flex items-center gap-[16px]">
             <button>
-              <img src="./assets/images/microphone.svg" alt="microphone" />
+              <img
+                src="./assets/images/microphone.svg"
+                alt="microphone"
+                class="w-[28px] h-[28px]"
+              />
             </button>
             <button>
-              <img src="./assets/images/Union.svg" alt="Union" />
+              <img
+                src="./assets/images/Union.svg"
+                alt="Union"
+                class="w-[24.7px] h-[28.5px]"
+              />
             </button>
           </div>
         </div>
         <button
-          class="w-[68px] h-[68px] flex items-center justify-center rounded-[50%] border-2 border-[#D8D8D8]"
+          class="flex-shrink-0 w-[68px] h-[68px] flex items-center justify-center rounded-full border-2 border-[#D8D8D8]"
         >
           <img
             src="./assets/images/shoping-basket.svg"
             alt="comment-icon"
-            class="w-[23.3px] h-[22.17]"
+            class="w-[23.3px] h-[22.17px]"
           />
         </button>
       </div>
